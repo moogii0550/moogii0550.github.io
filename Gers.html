@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nyyrin Ger</title>
+    <!--<link rel="stylesheet" href="./style.css" />-->
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+      }
+      .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+        background-image: url(./lake.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+      .header h1 {
+        font-size: 60px;
+        color: white;
+      }
+      nav a {
+        text-decoration: none;
+        color: black;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+      }
+
+      .nav-bar {
+        display: flex;
+        padding: 5px;
+        font-size: 20px;
+        background-color: wheat;
+      }
+      .nav-bar-2 {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5px;
+        font-size: 20px;
+        background-color: silver;
+      }
+      .main a{
+        text-decoration: none;
+        color: black;
+      }
+      nav a:hover {
+        background-color: whitesmoke;
+        color: black;
+        transition: 1s;
+      }
+      .nav-bar-2 a:hover {
+        background-color: gray;
+        color: white;
+      }
+      .main {
+        height: auto;
+
+        padding-left: 200px;
+      }
+@media (max-width:500px){
+  .nav-bar,.nav-bar-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  nav a{
+    width: 90%;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <div class="header"><h1>Lake House</h1></div>
+    <nav class="nav-bar">
+      <a href="home.html" class="home">Home</a>
+      <a href="Gers.html" class="ger">Gers</a>
+      <a href="restaurant.html" class="restaurant">Restaurant</a>
+      <a href="Event.html" class="event">Events</a>
+      <a href="reservetions.html" class="reservetion">Reservations</a>
+    </nav>
+    <div class="main">
+
+      <h1><a href="1 bed.html" >1 Bed</a></h1>
+      <h1><a href="3 beds.html">3 Beds</a></h1>
+      <h1><a href="3 Beds Traditional.html">3 Beds Traditional</a></h1>
+      <h1><a href="4 Beds Traditional.html">4 Beds Traditional</a></h1>
+
+    </div>
+    <nav class="nav-bar-2">
+      <a href="home.html" class="home">Home</a>
+      <a href="Gers.html" class="ger">Gers</a>
+      <a href="restaurant.html" class="restaurant">Restaurant</a>
+      <a href="Event.html" class="event">Events</a>
+      <a href="reservetions.html" class="reservetion">Reservations</a>
+    </nav>
+  </body>
+</html>

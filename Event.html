@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nyyrin Ger</title>
+    <!--<link rel="stylesheet" href="./style.css" />-->
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+      }
+      .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+        background-image: url(./lake.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+      .header h1 {
+        font-size: 60px;
+        color: white;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+      }
+
+      .nav-bar {
+        display: flex;
+        padding: 5px;
+        font-size: 20px;
+        background-color: pink;
+      }
+      .nav-bar-2 {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5px;
+        font-size: 20px;
+        background-color: silver;
+      }
+      .main {
+        height: 583px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+      }
+      .text {
+        font-size: 20px;
+        width: 20%;
+        height: 583px;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+      }
+      img {
+        width: 1349px;
+      }
+
+      a:hover {
+        background-color: palevioletred;
+        color: black;
+        transition: 1s;
+      }
+      .nav-bar-2 a:hover {
+        background-color: gray;
+        color: white;
+      }
+      @media (max-width: 500px) {
+        .nav-bar {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+        }
+        .main {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: calc(209px + 178px);
+        }
+        .text {
+          padding: 0;
+          height: 178px;
+          font-size: 15px;
+          position: absolute;
+          bottom: 0px;
+          left: 0px;
+          width: 100%;
+          margin: 0;
+        }
+        img {
+          width: 100%;
+        }
+        .nav-bar-2 {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+        }
+        a {
+          width: 90%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header"><h1>Lake House</h1></div>
+    <nav class="nav-bar">
+      <a href="home.html" class="home">Home</a>
+      <a href="Gers.html" class="ger">Gers</a>
+      <a href="restaurant.html" class="restaurant">Restaurant</a>
+      <a href="Event.html" class="event">Events</a>
+      <a href="reservetions.html" class="reservetion">Reservations</a>
+    </nav>
+    <div class="main">
+      <img src="./boat.jpg" />
+      <p class="text">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+        eaque cum quibusdam ullam labore nihil, beatae saepe laboriosam debitis
+        neque voluptates blanditiis alias ad, dolor hic, modi itaque obcaecati
+        magni?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+        quisquam amet voluptas architecto veritatis eius aspernatur nihil qui ea
+        fugit saepe, eum voluptatem omnis esse maxime facilis dolores eos
+        temporibus!
+      </p>
+    </div>
+    <nav class="nav-bar-2">
+      <a href="home.html" class="home">Home</a>
+      <a href="Gers.html" class="ger">Gers</a>
+      <a href="restaurant.html" class="restaurant">Restaurant</a>
+      <a href="Event.html" class="event">Events</a>
+      <a href="reservetions.html" class="reservetion">Reservations</a>
+    </nav>
+  </body>
+</html>

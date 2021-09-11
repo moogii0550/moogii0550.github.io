@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  background-image: url(./lake.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.header h1 {
+  font-size: 60px;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: black;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 5px;
+  font-size: 20px;
+}
+.nav-bar-2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  font-size: 20px;
+}
+.main {
+  height: 899px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.text {
+  font-size: 20px;
+  width: 20%;
+  height: 899px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+img {
+  width: 1349px;
+}
